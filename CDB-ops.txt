@@ -1,0 +1,14 @@
+--V$CONTAINERS Database Dictionary https://docs.oracle.com/en/database/oracle/oracle-database/19/refrn/V-CONTAINERS.html#GUID-8865FE4F-C22F-4B04-BC21-A28FFFC92072
+
+--V$PDBS Database Dictionary
+https://docs.oracle.com/en/database/oracle/oracle-database/19/refrn/V-CONTAINERS.html#GUID-8865FE4F-C22F-4B04-BC21-A28FFFC92072
+
+--look at v$pdbs table
+select * from v$pdbs
+
+--look at V$CONTAINERS table
+select * from V$CONTAINERS
+
+--selectnames of pdbs in a cdb
+select Name from (select * from v$pdbs);
+
