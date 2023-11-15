@@ -1,0 +1,6 @@
+--- webdriver waits
+https://selenium-python.readthedocs.io/waits.html
+
+--- "Find_element_by_*" is depricated 
+https://stackoverflow.com/questions/72773206/selenium-python-attributeerror-webdriver-object-has-no-attribute-find-el
+

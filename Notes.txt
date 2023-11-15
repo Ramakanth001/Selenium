@@ -1,0 +1,15 @@
+--- Always keep the browser open
+while(True):
+   pass
+
+--- Close the entire browser
+driver.quit() 
+
+--- Close only the current tab
+driver.close()  
+
+--- When searching for a element/Button in a website follow this order which ever is available first - 
+1. ID
+2. Name
+3. Classs
+
