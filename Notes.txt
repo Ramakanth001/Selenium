@@ -13,3 +13,5 @@ driver.close()
 2. Name
 3. Classs
 
+--- Print source code of a website 
+print(driver.page_source)
